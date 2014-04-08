@@ -133,6 +133,9 @@ void keyboard( unsigned char key, int x, int y ){
 	case 'q':
 		scaleAmount += 0.1;
 		break;
+	case 'r':
+		theta += 0.1;
+		break;
 	case 033:
 	    exit( EXIT_SUCCESS );
 	    break;
